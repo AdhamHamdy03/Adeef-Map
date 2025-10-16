@@ -1,0 +1,37 @@
+/* Leaflet Map Specific Styles */
+.map-container {
+  width: 66.666%;
+  height: 100vh;
+  position: relative;
+  background-color: #f0f0f0;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* Ensure leaflet tiles load properly */
+.leaflet-tile-pane {
+  z-index: 1;
+}
+
+.leaflet-map-pane {
+  z-index: 1;
+}
+
+/* Fix for marker icons */
+.leaflet-marker-icon {
+  z-index: 2;
+}
+
+/* Sidebar Styles */
+.sidebar-container {
+  width: 33.333%;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: white;
+  border-left: 1px solid #e5e7eb;
+  padding: 1rem;
+}
