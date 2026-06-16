@@ -21,8 +21,11 @@ const SAMPLE_CITIES = [
     lat: 48.8566,
     lng: 2.3522,
     pdfs: [
-      { id: 'p1', title: 'Testimony — Jean Dupont', url: '/pdfs/adham.pdf' },
-      { id: 'p2', title: 'Testimony — Marie Durand', url: '/pdfs/paris-marie-durand.pdf' },
+      { id: 'p1', title: 'Testimony — ADHAM SAMIR', url: '/pdfs/adham1.pdf' },
+      { id: 'p2', title: 'Testimony — CHEHAB', url: '/pdfs/adham.pdf' },
+      { id: 'p3', title: 'Testimony — DR NOUR', url: '/pdfs/PAIEMENT.pdf' },
+      { id: 'p4', title: 'Testimony — HAWARAA', url: '/pdfs/HAWARAA.pdf' },
+      { id: 'p4', title: 'Testimony — adham el gammal', url: '/pdfs/gammal.pdf' }
     ],
   },
   {
@@ -41,6 +44,33 @@ const SAMPLE_CITIES = [
     lng: 5.3698,
     pdfs: [
       { id: 'm1', title: 'Testimony — Ahmed', url: '/pdfs/marseille-ahmed.pdf' },
+    ],
+  },
+  {
+    id: 'toulouse',
+    name: 'Toulouse',
+    lat: 43.6048,
+    lng: 1.4428,
+    pdfs: [
+      { id: 't1', title: 'Testimony — Jean', url: '/pdfs/toulouse-jean.pdf' },
+    ],
+  },
+  {
+    id: 'strasbourg',
+    name: 'Strasbourg',
+    lat: 48.5734,
+    lng: 7.7521,
+    pdfs: [
+      { id: 's1', title: 'Testimony — seif', url: '/pdfs/seif.pdf' },
+    ],
+  },
+  {
+    id: 'nice',
+    name: 'Nice',
+    lat: 43.7102,
+    lng: 7.2620,
+    pdfs: [
+      { id: 'm1', title: 'Testimony — yasmine', url: '/pdfs/yasmine.pdf' },
     ],
   },
 ]
